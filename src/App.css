@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.productCard {
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  padding: 10px;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid lightgray;
+}
+
+.productList {
+  padding: 34px;
+}
+
+.productListTitle {
+  text-align: center;
+}
+
+.productListSortButton {
+  width: 25%;
+  height: 40px;
+  margin: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: medium;
+  background-color: gray;
+  color: white;
+}
+
+.productListSortButton:focus,  .productListSortButton:active {
+  outline: none;
+  border: 0;
+}
+
+.productListSortButton:active {
+  background-color: #666666;
+}
+
+.productCardHolder {
+  display: inline-block;
+  margin-bottom: 20px;
+}
